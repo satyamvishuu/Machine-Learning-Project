@@ -1,4 +1,12 @@
 pandas
 numpy
 seaborn
--e .
+matplotlib
+catboost
+xgboost
+python-dotenv
+mysql-connector-python
+pymysql
+scikit-learn
+# -e .
+
