@@ -30,9 +30,9 @@ class ModelTrainer:
             logging.info("Split training and test data")
             X_train, Y_train, X_test, Y_test=(
                 train_array[:,:-1],
-                train_array[:,:-1],
+                train_array[:,-1],
                 test_array[:,:-1],
-                test_array[:,:-1]
+                test_array[:,-1]
             )
 
             models = {
